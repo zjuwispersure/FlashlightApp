@@ -17,6 +17,8 @@
 		BC743DD42CFF433F00F6E3F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC743DAA2CFF433E00F6E3F1 /* ContentView.swift */; };
 		BC743DD52CFF433F00F6E3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC743DAB2CFF433F00F6E3F1 /* Assets.xcassets */; };
 		BC743DD62CFF433F00F6E3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC743DAB2CFF433F00F6E3F1 /* Assets.xcassets */; };
+		BC743DE92CFF462900F6E3F1 /* iOS in Resources */ = {isa = PBXBuildFile; fileRef = BC743DE82CFF462900F6E3F1 /* iOS */; };
+		BC743DEA2CFF462900F6E3F1 /* iOS in Resources */ = {isa = PBXBuildFile; fileRef = BC743DE82CFF462900F6E3F1 /* iOS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		BC743DC92CFF433F00F6E3F1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC743DCD2CFF433F00F6E3F1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		BC743DCF2CFF433F00F6E3F1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		BC743DE82CFF462900F6E3F1 /* iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iOS; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 		BC743DA32CFF433D00F6E3F1 = {
 			isa = PBXGroup;
 			children = (
+				BC743DE82CFF462900F6E3F1 /* iOS */,
 				BC743DA82CFF433E00F6E3F1 /* Shared */,
 				BC743DB72CFF433F00F6E3F1 /* macOS */,
 				BC743DC02CFF433F00F6E3F1 /* Tests iOS */,
@@ -266,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC743DE92CFF462900F6E3F1 /* iOS in Resources */,
 				BC743DD52CFF433F00F6E3F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC743DEA2CFF462900F6E3F1 /* iOS in Resources */,
 				BC743DD62CFF433F00F6E3F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
