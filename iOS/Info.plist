@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+    FlashLight App Info.plist
+    
+    Configuration Notes:
+    - 包含应用程序的基本配置信息
+    - 定义了必要的系统权限声明
+    - 设置了支持的设备方向
+    
+    Key Permissions:
+    - NSBrightnessUsageDescription: 用于请求控制屏幕亮度的权限
+    
+    Supported Orientations:
+    - Portrait
+    - Landscape Left
+    - Landscape Right
+-->
 <plist version="1.0">
 <dict>
     <key>NSBrightnessUsageDescription</key>
